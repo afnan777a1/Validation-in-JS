@@ -1,9 +1,8 @@
 const setScreenValue = async (value) => {
-  document.getElementById("resul").value = document.getElementById(
-    "result"
-  ).value = value;
+  document.getElementById("result").value =
+    document.getElementById("result").value + value;
 };
 
-const cleanScreen = async () => {
+const clearScreen = async () => {
   document.getElementById("result").value = "";
 };
