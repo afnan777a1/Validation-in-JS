@@ -4,7 +4,24 @@
     <title>Document</title>
   </head>
   <body>
-    <form name="myForm" onsubmit="validateForm()">
+    <form
+      name="myForm"
+      onsubmit="validateForm()"
+      style="
+        background: linear-gradient(
+          to right,
+          rgb(17, 0, 255),
+          rgb(75, 153, 255),
+          rgb(0, 247, 255)
+        );
+        margin-top: 200px;
+        background-color: rgb(0, 225, 255);
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      "
+    >
       Name: <input type="text" name="fname" /> <br />
       <br />
       Age: <input name="id1" type="number" min="18" /> <br />

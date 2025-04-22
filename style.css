@@ -63,7 +63,7 @@ input {
 
   width: 70px;
 
-  background-color: rgb(47, 51, 50);
+  background-color: rgb(52, 58, 64);
 
   border: none;
 
@@ -77,7 +77,7 @@ input {
 }
 
 input[type="text"] {
-  background-color: rgb(47, 51, 50);
+  background-color: rgb(114, 124, 143);
 
   width: 218px;
 }
@@ -91,7 +91,7 @@ input[type="button"]:hover {
 button {
   border: none;
 
-  background-color: rgb(39, 36, 36);
+  background-color: rgb(0, 16, 32);
 
   padding: 8px;
 
@@ -125,7 +125,7 @@ a {
 
   border: none;
 
-  background-color: rgb(39, 36, 36);
+  background-color: rgb(52, 58, 64);
 
   padding: 8px;
 
